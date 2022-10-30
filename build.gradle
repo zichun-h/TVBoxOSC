@@ -4,8 +4,8 @@ buildscript {
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
-        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        //maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
+        //maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
         maven { url "https://jitpack.io" }
         maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
     }
@@ -22,8 +22,8 @@ allprojects {
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
-        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        //maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
+        //maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
         maven { url "https://jitpack.io" }
         maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
     }
